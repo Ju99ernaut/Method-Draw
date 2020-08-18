@@ -12,20 +12,24 @@ The purpose of Method Draw is to provide a simple and easy-to-use SVG editor exp
 
 Develop and run a local web server under `src`;
 
-```
-cd src
-python -m SimpleHTTPServer
+```sh
+$ cd src
+$ noCacheServer.bat
 ```
 
 ## Build
 
 Install dev dependencies:
 
-`npm install`
+```sh
+$ npm i
+```
 
 Then you can build into `dist` by running:
 
-`gulp`
+```sh
+$ gulp
+```
 
 Deploy `dist` to your static file server of choice.
 
